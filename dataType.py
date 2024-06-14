@@ -103,4 +103,17 @@ print(f"your score is {score}")
 
 
 
+# 연습문제 팁 계산
+print("Welcome to the tip calculator")
+input_bill = float(input("What was the total bill?"))
+input_percentage = int(input("What persentage tip would you like to give? 10, 12 or 15?"))
+input_person_num = int(input("How many people to split the bill?"))
+
+
+result = "{:.2f}".format(int(input_percentage / 100 * input_bill + input_bill) / input_person_num)
+
+
+print(f"Each person should pay: {result}")
+
+
 
