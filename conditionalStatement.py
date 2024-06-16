@@ -44,3 +44,27 @@ elif year % 4 == 0:
   print("Leap year")
 else:
   print("Not leap year")
+
+
+# if / elif / else
+#
+# if condition1:
+#     do A
+# elif condition2:
+#     do B
+# else:
+#     do C
+
+# A, B, C 중에 하나만 실행된다.
+
+
+
+# Multiple if
+#
+# if condition1:
+#     do A
+# if condition2:
+#     do B
+# if condition3:
+#     do C
+# 조건이 모두 일치하면 A, B, C 모두 실행될 수 있다.
