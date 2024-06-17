@@ -26,3 +26,22 @@ print(my_module.pi)
 
 love_score = random.randint(1, 100)
 print(f"Your love score is {love_score}")
+
+
+
+
+
+# List는 데이터 자료구조이다. 파이썬에서 데이터를 체계화하고 저장하는 방식을 말한다.
+# 서로 관계성이 있는 데이터 그룹을 저장해야할때 사용한다.
+# 대괄호 한 쌍 안에 항목을 저장한다.
+# 문자열이나 숫자, 불리언 집합을 저장할 수 있다.
+fruits = ['apple', 'banana']
+# 리스트에는 순서가 있다. 순서가 보존되기 때문에 순서를 사용할 수 있다.
+print(fruits[0])
+
+
+
+
+
+
+
