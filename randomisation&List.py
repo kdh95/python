@@ -38,6 +38,78 @@ print(f"Your love score is {love_score}")
 fruits = ['apple', 'banana']
 # 리스트에는 순서가 있다. 순서가 보존되기 때문에 순서를 사용할 수 있다.
 print(fruits[0])
+# 음수 인덱스를 넣으면 뒤에서 부터 접근이 가능하다.
+print(fruits[-1]) # 가장 마지막에 있는 인덱스에 접근
+
+# 리스트 마지막에 값을 추가하고 싶으면
+# append() 함수를 사용하면 된다.
+fruits.append("watermelon")
+
+print(fruits[-1])
+
+# 이것 말고도 다양한 리스트 관련 함수가 존재한다.
+# 2개이상 값을 추가하려면 extend() 함수를 사용한다.
+
+
+# 리스트를 사용할때 가장 흔하게 접하는 에러는 index out of range 오류이다.
+# 만약 50개의 항목이 리스트에 있다면 마지막 인덱스의 번호는 49이다.
+# 이때 인덱스 50에 접근하려고 하면 에러가 발생한다.
+# 리스트의 len() 을 변수에 저장하고
+# list[len()] 으로 접근하려고 하면 에러가 발생한다. 그렇기 때문에 -1을 해주어야 한다.
+
+
+
+
+# 연습문제 가위바위보 하기
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+game_images = [rock, paper, scissors]
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+if user_choice >= 3 or user_choice < 0:
+    print("You typed an invalid number, you lose!")
+else:
+    print(game_images[user_choice])
+
+computer_choice = random.randint(0, 2)
+print(f"Computer chose {computer_choice}")
+print(game_images[computer_choice])
+
+
+if user_choice == computer_choice:
+    print("It's a draw!")
+elif computer_choice == 0 and user_choice == 2:
+    print("You lose!")
+elif user_choice == 0 and computer_choice == 2:
+    print("You win!")
+elif computer_choice > user_choice:
+    print("You lose!")
+elif user_choice > computer_choice:
+    print("You win!")
 
 
 
