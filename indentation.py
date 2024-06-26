@@ -13,7 +13,7 @@ def my_function():
     sky = "grey" # 공백 4칸 == 탭1번
     if sky == 'clear':
         print("blue") # 공백 8칸 == 탭2번
-    elif sky == "cloudy"
+    elif sky == "cloudy":
         print("grey")
     print("Hello")
 
