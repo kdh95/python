@@ -35,3 +35,13 @@ for num in range(1, 101):
 
 
 
+# While 반복문
+# while something_is_true:
+#     do something
+
+
+
+
+
+
+
