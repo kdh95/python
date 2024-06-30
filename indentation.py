@@ -21,3 +21,19 @@ print("World")
 
 # 파이썬 공식문서에는 스페이스를 사용하라고 되어있다.
 
+
+
+
+
+# 연습문제 소수인지 체크하기.
+def prime_checker(number):
+    is_prime = True
+    for i in range(2, number):
+        if number % i == 0:
+            is_prime = False
+
+    if is_prime:
+        print("It's a prime number.")
+    else:
+        print("It's not a prime number.")
+
