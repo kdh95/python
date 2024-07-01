@@ -8,3 +8,19 @@ programming_dictionaries = {
 }
 
 print(programming_dictionaries["Bug"])
+
+# Adding new items to dictionary.
+ç["Loop"] = "The action of doding something over and over again"
+
+print(programming_dictionaries["Loop"])
+
+# Create an empty dictionary
+empty_dictionary = {}
+
+# Wipe an existing dictionary
+# programming_dictionaries = {}
+
+# Loop through a dictionary
+for key in programming_dictionaries:
+    print(key)
+    print(programming_dictionaries[key])
