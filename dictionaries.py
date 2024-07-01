@@ -24,3 +24,30 @@ empty_dictionary = {}
 for key in programming_dictionaries:
     print(key)
     print(programming_dictionaries[key])
+
+
+
+
+# 딕셔너리는 리스트나, 딕셔너리를 value에 넣을 수 있다.
+# {
+#     key : [List],
+#     key2 : {Dict},
+# }
+
+capitalps = {
+    "France": "Paris",
+    "Germany": "Berlin",
+}
+
+
+# Nesting a List in a Dictionary
+travel_log = {
+    "France": ["Paris", "Lille", "Dijon"],
+    "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+}
+
+travel_log = {
+    "France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visits": 12},
+    "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+}
+
