@@ -51,3 +51,12 @@ travel_log = {
     "Germany": ["Berlin", "Hamburg", "Stuttgart"],
 }
 
+
+travle_log = [
+    {
+        "Country": "France",
+        "cities_visited": ["Paris", "Lille", "Dijon"],
+        "total_visits": 12
+    },
+]
+
