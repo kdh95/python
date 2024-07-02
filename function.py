@@ -22,3 +22,11 @@ my_function() # 함수 실행
 # my_functions()
 
 
+# DocStrings
+def format_name(f_name, l_name):
+    """Take a first and last name and format it to return the title case version of the name."""
+    if f_name == "" or l_name == "":
+        return "You didn't provide valid inputs"
+    format_f_name = f_name.title()
+    foramt_l_name = l_name.title()
+    return f"Result : {format_f_name} {foramt_l_name}"
