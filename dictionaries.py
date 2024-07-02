@@ -60,3 +60,16 @@ travle_log = [
     },
 ]
 
+
+
+# 연습문제
+# "Steak"를 출력하려면 어떻게 해야할까?
+
+# 보기
+order = {
+    "starter": {1: "Salad", 2: "Soup"},
+    "main": {1: ["Burger", "Fries"], 2: ["Steak"]},
+    "dessert": {1: ["Ice Cream"], 2: {}},
+}
+
+print(order["main"][2][0])
