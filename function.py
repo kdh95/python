@@ -30,4 +30,3 @@ def format_name(f_name, l_name):
     format_f_name = f_name.title()
     foramt_l_name = l_name.title()
     return f"Result : {format_f_name} {foramt_l_name}"
-
