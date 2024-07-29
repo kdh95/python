@@ -19,6 +19,7 @@ print(user_1.username)
 class Car:
     def __init__(self):
         # initialise attributes
+        print("new Car being created....")
 
 
 
