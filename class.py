@@ -15,11 +15,19 @@ print(user_1.username)
 
 
 
+
 # __init__ : 생성자
 class Car:
-    def __init__(self):
+
+    def __init__(self, seats):
         # initialise attributes
         print("new Car being created....")
+        self.seats = seats
+
+
+
+
+my_car = Car(7)
 
 
 
