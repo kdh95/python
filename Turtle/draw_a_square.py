@@ -1,8 +1,8 @@
 from turtle import Turtle, Screen
 
-timmy_the_turtle = Turtle()
+draw_a_squre = Turtle()
 
 # 정사각형 그리기
 for _ in range(4):
-    timmy_the_turtle.forward(100)
-    timmy_the_turtle.left(90)
+    draw_a_squre.forward(100)
+    draw_a_squre.left(90)
