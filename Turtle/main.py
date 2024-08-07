@@ -12,9 +12,5 @@ timmy_turtle.forward(100)
 
 
 
-
-
-
-
 screen = Screen()
 screen.exitonclick()
