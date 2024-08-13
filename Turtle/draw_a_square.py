@@ -6,3 +6,10 @@ draw_a_squre = Turtle()
 for _ in range(4):
     draw_a_squre.forward(100)
     draw_a_squre.left(90)
+
+
+
+
+
+
+
